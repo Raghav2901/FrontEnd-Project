@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleowl.css">
+    <link rel="stylesheet" href="css/owlcarousel.css">
+    <link rel="stylesheet" href="css/owldefaulttheme.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+</head>
+
+<body>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="best-image-formats.webp" alt="">
+            <h4>1</h4>
+        </div>
+        <div class="item">
+            <img src="Image-Files-Blog-Vector.webp" alt="">
+            <h4>2</h4>
+        </div>
+        <div class="item">
+            <img src="images.jpg" alt="">
+            <h4>3</h4>
+        </div>
+        <div class="item">
+            <img src="istockphoto-1074985224-612x612.jpg" alt="">
+            <h4>4</h4>
+        </div>
+        <div class="item">
+            <img src="istockphoto-1166174783-612x612.jpg" alt="">
+            <h4>5</h4>
+        </div>
+        <div class="item">
+            <img src="istockphoto-1193066588-612x612.jpg" alt="">
+            <h4>6</h4>
+        </div>
+        
+    </div>
+
+
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            animateIn: 'flipInX',
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

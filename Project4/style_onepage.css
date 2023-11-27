@@ -1,0 +1,235 @@
+.descript1 #head1 {
+    font-size: 76px !important;
+    padding-top: 63px;
+    max-width: 626px;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-weight: 800;
+}
+
+.navbar-nav {
+    margin: auto;
+    text-transform: uppercase;
+    width: 688px;
+}
+
+
+/* Add this to your existing CSS */
+.navbar-transparent {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-transparent.navbar-scrolled {
+    background-color:  white !important; /* Set the desired background color when scrolled */
+    color: black;
+    z-index: 9999;
+    width: 100%;
+    position: fixed;
+}
+.navbar-scrolled .navbar{
+     position: fixed;
+     z-index: 9999;
+     left: 0;
+     max-width: 1140px;
+     margin: auto;
+     right: 0;
+}
+
+
+ul.navbar-nav li {
+
+    margin: 0 10px;
+    padding-top: 5px;
+}
+
+.bg-light {
+    background-color: #fcfcfc !important;
+    margin-left: -15px;
+    margin-right: -15px;
+   
+}
+
+
+div#navbarNav {
+    padding: 22px;
+}
+
+.descript1 {
+    padding-top: 23px;
+    background: url(banner-image-1.jpg) no-repeat center top;
+    background-size: cover;
+    padding-bottom: 112px;
+}
+
+.para1 {
+    max-width: 516px;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.aboutsection {
+    background-color: black;
+    
+}
+
+.aboutsection img {
+    padding-top: 50px;
+    max-width: 100%;
+}
+
+#about {
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    color: white;
+    letter-spacing: 8px;
+}
+
+.para2 {
+    padding-top: 23px;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.button1 {
+    border: 2px solid black;
+    padding: 4px 17px;
+}
+
+.containerclass {
+    background-color: black;
+}
+
+.imagesection img {
+    max-width: 100%;
+    max-height: 380px;
+    padding: 0;
+}
+
+#gallery {
+    color: white;
+    text-align: center;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    letter-spacing: 9px;
+}
+
+.contactsection {
+    background-color: black;
+    text-align: center;
+    color: white;
+    letter-spacing: 6px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+form {
+    padding-top: 29px;
+}
+
+input[type=text] {
+    margin: 12px;
+
+}
+
+label {
+    width: 200px;
+    letter-spacing: 4px;
+    margin: 13px;
+}
+
+.heading1 {
+    text-align: left;
+}
+
+.para3 {
+    padding-top: 26px;
+    font-size: 15px;
+    text-align: left;
+    color: #A7A7A7;
+  }
+
+  #contactus {
+    text-align: left;
+  }
+  .heading2{
+    color: #A7A7A7;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-top: 22px;
+    font-size: 18px;
+  }
+
+  input[type="submit"] { 
+    padding: 7px 26px;
+    margin-top: 39px;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 6px;
+
+  }
+  input[type="submit"]:hover{
+       background-color: rgb(32, 32, 32);
+       color: white;
+  }
+
+  .para4 {
+    text-align: left;
+    padding-top: 21px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  .conditionsection .color{
+    color: white;
+
+  }
+
+  .conditionsection {
+        padding-top: 108px;
+        padding-bottom: 25px;
+        text-align: center;
+        letter-spacing: 3px;
+  }
+  .conditionsection li {
+       list-style: none;
+  }
+
+  a:hover {
+      color: #A7A7A7;
+      text-decoration: none;
+
+  }
+
+  #scrollToTopBtn{
+    position: fixed;
+    bottom: 3px;
+    right: 68px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    border: 1px solid #fff;
+         
+  }
+  #scrollToTopBtn:hover{
+       background-color: black;
+       color: white;
+       border: 1px solid #fff;
+       border-radius: 8px;
+    
+  }
+
+  .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Add other styles as needed */
+}
+
+
