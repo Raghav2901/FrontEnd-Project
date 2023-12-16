@@ -1,0 +1,33 @@
+.bestsellerdescript{
+    padding-top: 80px;
+    text-align: center;
+}
+.bestsellerdescript h6{
+  font-size: 10px;  
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: #bf806c;
+}
+.bestsellerdescript p{
+  font-size: 25px;
+  font-weight: lighter;
+}
+.bestsellerdescript button{
+  background-color: #b7856e;
+  border: 0;
+  color: white;
+  font-size: 9px;
+  width: 103px;
+  margin-top: 8px;
+  padding: 7px;
+  letter-spacing: 4px;
+}
+.bestsellerimg img{
+  width: 100%;
+  max-width: 100%;
+  padding-top: 42px;
+  height: 525px;
+}
+.bestsellerbox{
+  padding-bottom: 55px;
+}

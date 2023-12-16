@@ -1,0 +1,53 @@
+@media (min-width: 320px)  and (max-width:520px){
+
+    .section-title{
+
+        padding-top: 249px !important;
+    }
+
+
+}
+
+
+
+.section-title {
+
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 5;
+    padding-top: 23px;
+}
+
+.section-title .para{
+     color: #7e7e7e;
+}
+
+.service-box .single-services{
+
+    padding: 40px 30px;
+    border: 1px solid #f0efef;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all .3s ease-out 0s;
+}
+
+.service-box .single-services .service-icon {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background:white;
+    border: 2px solid #135cdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    transition: all .3s ease-out 0s;
+    position: relative;
+    color: #165cd7;
+
+}    
+
